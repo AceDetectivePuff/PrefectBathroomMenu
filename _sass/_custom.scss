@@ -20,15 +20,67 @@
     width: 6%;
     padding: 3px 0 0;
     text-align: center;
-    background-color: #524848;
-	
+
 	@include breakpoint(xsmall) {
 		width: 9%;
 	}
 
     i {
 		font-size: 31px;
+	    /*
 	    font-weight: 700;
+	    */
+
 	    color: white;
     }
+}
+
+.home {
+	color: #fff;
+	text-decoration: none;
+	margin: unset;
+}
+
+.banner.style5 .image {
+	filter: blur(3px);
+	opacity: .3;
+
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.spotlight .image {
+    opacity: .3;
+}
+
+.spotlight .image:hover {
+	opacity: unset;
+}
+
+img.post-left {
+	float: left;
+	max-width: 33%;
+	padding-right: 15px;
+}
+
+img.post-right {
+	float: right;
+	max-width: 33%;
+	padding-left: 15px;
+	order: 2;
+}
+
+.post-container {
+	margin: 10px;
+	overflow: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%
+}
+
+.wide {
+	width: 66%
 }

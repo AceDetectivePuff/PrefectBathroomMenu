@@ -1,10 +1,10 @@
 style: style1
 sectionType: spotlight
-contentAlign: content-align-left
+contentAlign: content-align-center
 imagePos: image-position-center
 orientFirst: orient-right
 orientSecond: orient-left
 schemeFirst: null
 schemeSecond: invert
-readBtnText: More
-onScrollImg: onscroll-image-fade-in
+readBtnText: Read
+onScrollImg: onscroll-image-fade-left
