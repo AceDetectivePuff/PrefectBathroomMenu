@@ -45,23 +45,23 @@
                         <!--                          <h3 style="font-weight: 400; text-align: center;">Keep reading</h3>                         -->
                         <div class="more-posts-container">
                             {% if page.next %}
-                                <div class="more-post">
                                     <a class="more-post-link" href="{{page.next.url | relative_url}}">
+                                      <div class="more-post">
                                         <h4>{{page.next.title}}</h4>
                                         <h3>{{page.next.subtitle}}</h3>
                                         <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                      </div>
                                     </a>
-                                </div>
                             {% endif %}
 
                             {% if page.previous %}
-                                <div class="more-post">
                                     <a class="more-post-link" href="{{page.previous.url | relative_url}}">
+                                      <div class="more-post">
                                         <h4>{{page.previous.title}}</h4>
                                         <h3>{{page.previous.subtitle}}</h3>
                                         <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                      </div>
                                     </a>
-                                </div>
                             {% endif %}
                         </div>
                     </div>
